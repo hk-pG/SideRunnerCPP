@@ -1,0 +1,97 @@
+[
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\BaseLevel.cpp",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\BaseLevel.h",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\Obstacle.cpp",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\Obstacle.h",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\RunnerCharacter.cpp",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\RunnerCharacter.h",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\SideRunnerCPP.Build.cs",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\SideRunnerCPP.cpp",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\SideRunnerCPP.h",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\SideRunnerCPPCharacter.cpp",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\SideRunnerCPPCharacter.h",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\SideRunnerCPPGameMode.cpp",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\SideRunnerCPPGameMode.h",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\SpawnLevel.cpp",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\SpawnLevel.h",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\Spikes.cpp",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\Spikes.h",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\WallSpike.cpp",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\hukad\\\\Documents\\\\Unreal Projects\\\\SideRunnerCPP\\\\Source\\\\SideRunnerCPP\\\\WallSpike.h",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default\\SideRunnerCPP.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	}
+]

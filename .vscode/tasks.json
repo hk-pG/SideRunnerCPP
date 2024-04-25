@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "SideRunnerCPP Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win32",
+				"Debug",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win32",
+				"Debug",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPP Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win32",
+				"Debug",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPP Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win32",
+				"Development",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win32",
+				"Development",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPP Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win32",
+				"Development",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPP Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win32",
+				"Test",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win32",
+				"Test",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPP Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win32",
+				"Test",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win64",
+				"Debug",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win64",
+				"Debug",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPP Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win64",
+				"Debug",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPP Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win64",
+				"Development",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win64",
+				"Development",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPP Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win64",
+				"Development",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPP Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win64",
+				"Test",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win64",
+				"Test",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPP Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPP",
+				"Win64",
+				"Test",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"IOS",
+				"Debug",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"IOS",
+				"Debug",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPP IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPP",
+				"IOS",
+				"Debug",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPP IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPP",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"IOS",
+				"Development",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"IOS",
+				"Development",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPP IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPP",
+				"IOS",
+				"Development",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPP IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPP",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"IOS",
+				"Test",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPP",
+				"IOS",
+				"Test",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPP IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPP IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPP",
+				"IOS",
+				"Test",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPPEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPPEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPPEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPPEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPPEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPPEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPPEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPPEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPPEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPPEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPPEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPPEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPPEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPPEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPPEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPPEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPPEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SideRunnerCPPEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SideRunnerCPPEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "SideRunnerCPPEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SideRunnerCPPEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\SideRunnerCPP.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		}
+	]
+}

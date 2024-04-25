@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "SideRunnerCPPEditor Editor Win64 Development (SideRunnerCPP)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_SideRunnerCPP.json"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\hukad\\Documents\\Unreal Projects\\SideRunnerCPP\\.vscode\\compileCommands_Default.json"
+        }
+    ],
+    "version": 4
+}
